@@ -1,0 +1,24 @@
+Intelligent chatbox using Dialog Flow
+
+Aim:- To build an Intelligent chatbox system with python and dialogue flow using Interactive text mining framework for exploration of semantic flour in large corpus of Text.
+Procedure:
+Step I: Create an Agent.
+                   An Agent is an intelligent program inside. The chatbox, it’s that program that interacts with the clients or users. To create an Agent, go to the left section of your screen and click on first button below the Dialog flow logo and go down to the create new agent button, After that the new screen will be loaded, and you will be ask to specify the name of Agent, the language that it should be speak and time zone. For me I type FOOD -bot. for the name and rest, I leave the default values.After that, you must click on CREATE button and DialogFlow will create an agent for your chatbox. 
+Step 2:Create Intents
+                  Intents is use by the Chabot to understand what the Clients or users want. It’s inside the Intents that we should provide to the chatbot the examples of phrases that the clients may ask and some responses that chatbot should use to answer to the clients. Let’s chow how we can do it.
+NOTE:
+When we create a new agent, it comes with two defaults intents named Default fallback Intent and Default welcome Intent.
+For create a new Intent, click on the Create Intent button.
+             After that, you must give the name of your intent. Then go to Training phrases section and click on add Training phrases. This section concerns the way where you should give the example of phrase which represents the different questions that clients may ask to chatbot. We recommend giving many examples to make your chatbot very powerful.
+               We have added some phrases that clients may ask to our chatbox, for your own chatbox, feel free to add another phrase to improve the power of your chatbot. Dialog Flow recognizes three types of entities such as systems, entities, developer entities, and session entities. This night and today are recognized as systems entities, it refers to date or period of time. Go down to the Response section and click on Add response button, add some responses statements. Start with $ symbol these expressions are considered as variables like $time-Period, $date –time.
+Step 3: Creation of entities
+                     In reality, entities are Keywords that help Agent to recognize what client wants. To create it. Click on Entities button. After specify the name of entity – your entity, because you have to use it as variable. Make sure to case Define synonyms before, then click on save button.
+Step 4:Add our entities inside training phrases expressions.
+                     Back to the Food Intent Interface and go to the training phrases section. When you are there, select an expression, and Inside this expression select word
+For the words booking, Food and reserve table. 
+Step 5: Definition of parameters andactions.
+                     It’s not required, but in some cases, it will be very Important to obligate the user to give to chatbot, some inform Go down to the actions and parameters section, always Inside The foodbot Interface.
+For our chatbot, we want that clients provide the reserve table and date of reservation. Make sure to check it. After that, we should specify the prompt text that Agent should display to client when they haven’t specified the required parameters. You need to click on Define prompts. Space on right place of this section, after defining prompt text, close the box dialog.
+For the date-time parameter. After this, save the Intent. Now you can test your chatbot.
+
+
